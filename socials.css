@@ -1,0 +1,57 @@
+body{
+    background-color: #141414;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 50px;
+}
+.social{
+    background-color: #1f1f1f;
+    height: 600px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 10px;
+}
+.social img{
+    padding-top: 20px;
+}
+.name{
+    color: #bfbfbf;
+    font-weight: 800;
+    font-size: 30px;
+}
+.oyo{
+    color: #98b04f;
+    font-size: 500;
+    font-weight: bolder;
+}
+#end{
+    margin-bottom: 10px;
+}
+button{
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #333333;
+    border: none;
+}
+.social a button{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgb(104, 104, 58);
+    cursor: pointer;
+}
+
+.social a button:hover{
+    color: black;
+}
