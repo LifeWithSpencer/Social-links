@@ -27,7 +27,7 @@ body{
     font-size: 30px;
 }
 .oyo{
-    color: #98b04f;
+    color: #c5f82a;
     font-size: 500;
     font-weight: bolder;
 }
@@ -47,9 +47,11 @@ button{
     font-weight: bold;
     font-size: 15px;
 }
-button:hover{
-    background-color: rgb(104, 104, 58);
+.social button:hover{
+    background-color: #c5f82a;
     cursor: pointer;
+    border: 1px solid #c5f82a;
+    border-spacing: 10px;
 }
 
 .social a button:hover{
